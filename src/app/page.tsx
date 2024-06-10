@@ -42,19 +42,45 @@ export default function Page() {
           </header>
         </section>
       </main>
-      <section className="relative bg-black p-4 font-extrabold py-24 z-10 border-t border-white">
-        <h1 className="text-7xl text-transparent stroke-white bg-clip-text bg-transparent px-4 py-2">
+      <section className="relative bg-black py-24 z-10 border-t border-white">
+        <h1
+          className="text-7xl stroke-1 text-transparent stroke-white bg-clip-text bg-transparent px-4 py-2"
+          style={{
+            WebkitTextStroke: "1px white",
+          }}
+        >
           Services Section
         </h1>
       </section>
-      <section className="text-7xl text-transparent stroke-white bg-clip-text bg-transparent px-4 py-2">
-        <h1 className="text-7xl text-white text-center">Our Work</h1>
+      <section className="relative bg-black py-24 z-10 border-t border-white">
+        <h1
+          style={{
+            WebkitTextStroke: "1px white",
+          }}
+          className="text-7xl text-transparent stroke-white bg-clip-text bg-transparent px-4 py-2"
+        >
+          Our Work
+        </h1>
       </section>
-      <section className="text-7xl text-transparent stroke-white bg-clip-text bg-transparent px-4 py-2">
-        <h1 className="text-7xl text-white text-center">Testimonial</h1>
+      <section className="relative bg-black py-24 z-10 border-t border-white">
+        <h1
+          style={{
+            WebkitTextStroke: "1px white",
+          }}
+          className="text-7xl text-transparent stroke-white bg-clip-text bg-transparent px-4 py-2"
+        >
+          Testimonial
+        </h1>
       </section>
-      <section className="text-7xl text-transparent stroke-white bg-clip-text bg-transparent px-4 py-2">
-        <h1 className="text-7xl text-white text-center">Footer section</h1>
+      <section className="relative bg-black py-24 z-10 border-t border-white">
+        <h1
+          style={{
+            WebkitTextStroke: "1px white",
+          }}
+          className="text-7xl text-transparent stroke-white bg-clip-text bg-transparent px-4 py-2"
+        >
+          Footer section
+        </h1>
       </section>
     </>
   );
