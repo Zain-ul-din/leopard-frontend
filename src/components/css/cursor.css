@@ -1,0 +1,27 @@
+#cursor {
+  height: 5px;
+  width: 5px;
+  /* background: #aaa; */
+  background: black;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 999;
+  pointer-events: none;
+}
+
+#ball {
+  z-index: 999;
+  position: fixed;
+  display: block;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity:1;
+  background: transparent;
+  border: 1px solid red;
+}
+
