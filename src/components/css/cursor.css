@@ -2,7 +2,7 @@
   height: 5px;
   width: 5px;
   /* background: #aaa; */
-  background: black;
+  background: white;
   border-radius: 50%;
   position: fixed;
   z-index: 999;
@@ -22,6 +22,6 @@
   pointer-events: none;
   opacity:1;
   background: transparent;
-  border: 1px solid red;
+  border: 1px solid white;
 }
 

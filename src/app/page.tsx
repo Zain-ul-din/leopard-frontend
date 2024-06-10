@@ -1,7 +1,8 @@
 export default function Page() {
   return <section>
-    <h1 className="text-7xl font-extrabold text-center mt-5">
-      Getting started with Next JS
-    </h1>
+    <video autoPlay playsInline loop className="w-full min-w-full">
+      <source src="https://leopardleads.com/assets/hero-vid-1000.mp4" type="video/mp4" />
+    </video>
   </section>
 }
+
